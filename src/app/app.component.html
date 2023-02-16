@@ -1,0 +1,22 @@
+<h1>Checkpoint BEDU-HSBC</h1>
+<app-header></app-header>
+<app-body></app-body>
+
+<a [routerLink]="['proyectos']">Proyectos</a>
+<br><br>
+<button [routerLink]="['personas']">Personas</button>
+<router-outlet></router-outlet>
+
+<h3>Cursos</h3>
+
+<h6>Nombre {{proyecto.id}}</h6>
+<h6>Edad {{proyecto.nombre}}</h6>
+<h6>Curso {{proyecto.nombrecorto}}</h6>
+
+<!-- <div *ngFor="let course of coursesData">
+ <h3>{{course.id}}</h3>
+  <h5>{{beer.price}}</h5>
+  <img src={{beer.image}}>
+</div>-->
+
+<app-footer></app-footer>
